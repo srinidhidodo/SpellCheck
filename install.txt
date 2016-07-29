@@ -1,0 +1,9 @@
+exec.out: spell_check.o node.o
+	gcc -o exec.out spell_check.o node.o
+	
+node.o: node.c node.h
+	gcc -c node.c
+	
+spell_check.o: spell_check.c english_wordlist1.txt
+		gcc -c spell_check.c
+
