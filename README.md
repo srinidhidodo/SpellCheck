@@ -7,22 +7,22 @@ Run exec.out you'll be shown a menu with options to perform the operations of th
 
 Windows and Ubuntu
 
-1.Copy the folder 'SpellCheck' onto your system.
-2.Open the terminal.
-3.Use the cd command to navigate to the directory containing the programs for the spell check.
+1. Copy the folder 'SpellCheck' onto your system.
+2. Open the terminal.
+3. Use the cd command to navigate to the directory containing the programs for the spell check.
 
 Ubuntu
 
-4.Type in the command make -f install.txt
+4. Type in the command make -f install.txt
 5. ./exec.out to run the program
 
 Windows
 
-4.gcc c node.h
-5.gcc c node.c
-6.gcc c spell_check.c
-7.gcc o exec.out node.o spell_check.o
-8.exec.out to run the program
+4. gcc -c node.h
+5. gcc -c node.c
+6. gcc -c spell_check.c
+7. gcc -o exec.out node.o spell_check.o
+8. exec.out to run the program
 
 File Manifest :
 node.h
