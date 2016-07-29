@@ -7,13 +7,13 @@ Run exec.out you'll be shown a menu with options to perform the operations of th
 
 Windows and Ubuntu
 
-1.Copy the folder SpellCheck onto your system.
+1.Copy the folder 'SpellCheck' onto your system.
 2.Open the terminal.
 3.Use the cd command to navigate to the directory containing the programs for the spell check.
 
 Ubuntu
 
-4.Type in the command make f install.txt
+4.Type in the command make -f install.txt
 5. ./exec.out to run the program
 
 Windows
